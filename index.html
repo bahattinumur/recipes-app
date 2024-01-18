@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes App</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- üst kısım -->
+    <header>
+      <div class="logo">
+        <a href="/">
+          <img src="/images/food-logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <div class="form">
+        <form>
+          <input placeholder="ex.pizza,cake" type="text" />
+          <button><span>Seach</span></button>
+        </form>
+      </div>
+
+      <div class="bookmark">
+        <div class="bm-area">
+          <button class="bm-button">
+            <i class="bi bi-bookmark-heart-fill"></i>
+          </button>
+
+          <div class="dropdown">
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ana içerik -->
+    <main>
+      <section id="results">
+        
+      </section>
+
+      <section id="recipe">
+        
+      </section>
+
+      <section id="cart">
+        <div>
+          <h2>Ingredients</h2>
+          <button id="clear">Clear</button>
+        </div>
+
+        <ul id="basket"></ul>
+      </section>
+    </main>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
